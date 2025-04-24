@@ -6,7 +6,7 @@ import requests from "../utils/requests";
 
 export default function Home({ results }) {
   return (
-    <div className="h-screen overflow-y-auto scrollbar-hide">
+    <div className="h-screen overflow-y-auto">
       <Head>
         <title>Hulu 2.0</title>
       </Head>
